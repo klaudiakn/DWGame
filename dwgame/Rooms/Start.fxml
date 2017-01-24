@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" minHeight="122.0" prefHeight="534.0" prefWidth="504.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dwgame.Rooms.StartController">
+  <children>
+    <VBox alignment="CENTER" prefHeight="222.0" prefWidth="301.0" spacing="20.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <Label prefHeight="317.0" prefWidth="372.0" text="Welcome to the Journey to the centre of the TARDIS game! You were trying to teach Clara, that TARDIS is not just a ship, and she should try to get along with her, so you've put on the 'easy mode' to let her try to fly it. But you happend to be in the neighborhood of the salvage ship, which crew decided to grab your ship....So when Clara touches the console, you hear loud rock music playing and the electrical impulses in TARDIS gets jammed. You're crashing flying into the magnetic Hubble field. So now, the engine is going to explode, and you need to get to it before it does (time limit: 8) through the labirynts of TARDIS's rooms (being in every room takes one unit of time as well as additional actions). Your only weapon by now is Sonic Screwdriver. Good luck!" wrapText="true">
+          <font>
+            <Font name="CinzelDecorative-Regular" size="12.0" />
+          </font>
+        </Label>
+        <HBox alignment="CENTER" prefHeight="57.0" prefWidth="281.0" spacing="20.0">
+          <children>
+            <Button mnemonicParsing="false" onAction="#play" text="Play" />
+          </children>
+        </HBox>
+            <VBox fx:id="levels" prefHeight="133.0" prefWidth="85.0" />
+      </children>
+      <padding>
+        <Insets />
+      </padding>
+    </VBox>
+  </children>
+</AnchorPane>

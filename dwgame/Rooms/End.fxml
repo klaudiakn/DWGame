@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" minHeight="122.0" prefHeight="534.0" prefWidth="504.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dwgame.Rooms.EndController">
+   <children>
+      <Label layoutX="94.0" layoutY="109.0" prefHeight="187.0" prefWidth="272.0" text="Game over. If you want to try again press play again" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

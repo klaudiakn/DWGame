@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" minHeight="122.0" prefHeight="534.0" prefWidth="504.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="dwgame.Rooms.EngineController">
+   <children>
+      <Label fx:id="label1" layoutX="38.0" layoutY="55.0" prefHeight="171.0" prefWidth="403.0" text="You walk through the door and suddenly you're standing at the edge of giant abyss shrouded in fog. You look around but there's no other door than the one that brought you here. What do you do?" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label2" layoutX="38.0" layoutY="259.0" prefHeight="145.0" prefWidth="403.0" text="You land in the actual engine room and see that the heart of the TARDIS has already exploded in the collision with the salvage ship but the TARDIS froze it. But it's temporary fix, eventually this place will erupt.You need to find a way to save it. There is a rift in time cause by explosion. All the memory is leaking out. You need to find the moment of the crash. You can locate it with your Sonic Screwdriver or K9, but you gotta know, what you are looking for...Write the answer in the box below and confirm by double clicking on your answer." visible="false" wrapText="true" />
+      <TextField fx:id="answer" layoutX="38.0" layoutY="438.0" onAction="#answerTyped" visible="false" />
+      <Button fx:id="jumpButton" layoutX="46.0" layoutY="214.0" mnemonicParsing="false" onAction="#jump" text="Jump into the abyss" />
+      <Button fx:id="examineButton" layoutX="282.0" layoutY="214.0" mnemonicParsing="false" onAction="#examine" text="Examine with your weapon" />
+   </children>
+</AnchorPane>
